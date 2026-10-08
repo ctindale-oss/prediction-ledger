@@ -1,0 +1,17 @@
+{
+  "created_at": "2026-10-09T07:55:00+11:00",
+  "file": "ledger.jsonl",
+  "sha256": "1b63678f1667007be75c89973a84cfecc5c491c04ff5fb13cc217885dbe24d5a",
+  "entry_count": 45,
+  "note": "SHA-256 is of ledger.jsonl. OpenTimestamps calendars accepted the digest at ots_submitted_at. Bitcoin block attestation upgrades later via ots upgrade. Do not rewrite ledger.jsonl; append corrections.",
+  "ots_submitted_at": "2026-10-09T07:56:00+11:00",
+  "ots_file": "ledger.jsonl.ots",
+  "ots_calendars": [
+    "https://a.pool.opentimestamps.org",
+    "https://b.pool.opentimestamps.org",
+    "https://a.pool.eternitywall.com",
+    "https://ots.btc.catallaxy.com"
+  ],
+  "bitcoin_attestation": "pending",
+  "repo": "https://github.com/ctindale-oss/prediction-ledger"
+}
