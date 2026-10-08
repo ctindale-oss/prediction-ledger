@@ -1,0 +1,11 @@
+{
+  "created_at": "2026-10-09T08:07:33+11:00",
+  "file": "ledger.jsonl",
+  "sha256": "f2525b26b1dc6ff01b1d96c750823bd93a746e5eff3dc607d9b74a705201f0ea",
+  "entry_count": 23,
+  "prior_sha256": "1b63678f1667007be75c89973a84cfecc5c491c04ff5fb13cc217885dbe24d5a",
+  "note": "Full ledger.jsonl after the Substack append. First 45 lines still hash to prior_sha256 and remain covered by batches/ledger-2026-10-09-batch1.jsonl.ots. This batch hash was submitted to OpenTimestamps calendars. Bitcoin attestation pending.",
+  "ots_submitted_at": "2026-10-09T08:12:00+11:00",
+  "ots_file": "batches/ledger-2026-10-09-substack.jsonl.ots",
+  "bitcoin_attestation": "pending"
+}
