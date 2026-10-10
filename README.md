@@ -13,3 +13,5 @@ The canonical file is `ledger.jsonl`. One JSON object per line. Do not edit a li
 Stated probabilities and inferred probabilities are scored separately. Inferred calls are a reading of his wording, queued in `inferred-to-confirm.csv` for him to confirm. They are not his skill score.
 
 Scorecard: `scorecard.html`. Method: `SCORING.md`.
+
+Update 11 Oct 2026: batch 1 and batch 2 proofs are Bitcoin-confirmed (blocks 970534 and 970582). The ledger is now 74 lines; see `github-parts/README.md` and `batches/batch-2026-10-11.json`. Current SHA-256 `f5c58b2c70784a7a49140ea9e9fc8d90380e79cc6573c2bf77f5738f00fdc32a`, OpenTimestamps pending.

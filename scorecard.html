@@ -1,1 +1,148 @@
-PLACEHOLDER_LOAD_FROM_DISK
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Craig Tindale — Prediction Ledger Scorecard (2026-10-11)</title>
+<style>
+:root { --bg:#0f1419; --card:#1a2332; --text:#e7ecf3; --muted:#9aa7b8; --good:#3dd68c; --bad:#ff6b6b; --open:#6cb6ff; --warn:#ffd166; }
+* { box-sizing:border-box; }
+body { margin:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; background:var(--bg); color:var(--text); line-height:1.45; }
+main { max-width:1100px; margin:0 auto; padding:28px 18px 60px; }
+h1 { font-size:1.55rem; margin:0 0 6px; }
+h2 { font-size:1.1rem; margin:28px 0 10px; color:var(--warn); }
+.sub { color:var(--muted); margin-bottom:22px; }
+.grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:12px; }
+.card { background:var(--card); border:1px solid #2a3545; border-radius:12px; padding:14px 16px; }
+.card .k { color:var(--muted); font-size:0.78rem; text-transform:uppercase; letter-spacing:.04em; }
+.card .v { font-size:1.45rem; font-weight:700; margin-top:4px; }
+.card .n { color:var(--muted); font-size:0.85rem; }
+.note { background:var(--card); border-left:3px solid var(--warn); padding:12px 14px; margin:18px 0; border-radius:0 8px 8px 0; color:var(--muted); font-size:0.92rem; }
+.hash { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size:0.78rem; word-break:break-all; color:var(--open); }
+table { width:100%; border-collapse:collapse; font-size:0.82rem; margin-top:10px; }
+th, td { border-bottom:1px solid #2a3545; padding:8px 6px; vertical-align:top; text-align:left; }
+th { color:var(--muted); font-weight:600; position:sticky; top:0; background:var(--bg); }
+td.claim { max-width:340px; }
+tr.resolved_true td:nth-child(7) { color:var(--good); }
+tr.resolved_false td:nth-child(7) { color:var(--bad); }
+tr.open td:nth-child(7) { color:var(--open); }
+tr.unscorable td:nth-child(7), tr.unresolved td:nth-child(7) { color:var(--warn); }
+.small { font-size:0.85rem; color:var(--muted); }
+</style>
+</head>
+<body>
+<main>
+<h1>Prediction Ledger Scorecard</h1>
+<p class="sub">Craig Tindale · daily intake · 11 Oct 2026 (Australia/Sydney) · n=74 logged claims · <strong>small-n: treat scores as provisional</strong></p>
+<div class="grid">
+  <div class="card"><div class="k">Stated Brier (headline skill)</div><div class="v">0.0625</div><div class="n">n = 1 resolved stated</div></div>
+  <div class="card"><div class="k">Inferred Brier (reading, not skill)</div><div class="v">0.01</div><div class="n">n = 1 resolved inferred</div></div>
+  <div class="card"><div class="k">Edge vs consensus</div><div class="v">0.0</div><div class="n">mean (his Brier − consensus Brier); n = 1</div></div>
+  <div class="card"><div class="k">Resolved T / F / unresolved</div><div class="v">2 / 0 / 3</div><div class="n">open 48 · unscorable 21</div></div>
+</div>
+<div class="grid" style="margin-top:12px">
+  <div class="card"><div class="k">Direction</div><div class="v" style="font-size:1rem">{'right': 2, 'unresolved': 51, 'n/a': 21}</div></div>
+  <div class="card"><div class="k">Timing (incl. right-but-early)</div><div class="v" style="font-size:1rem">{'right': 2, 'unresolved': 51, 'n/a': 21}</div><div class="n">early count = 0</div></div>
+  <div class="card"><div class="k">Magnitude</div><div class="v" style="font-size:1rem">{'n/a': 53, 'unresolved': 21}</div></div>
+  <div class="card"><div class="k">Mechanism (resolved)</div><div class="v" style="font-size:1rem">{'unclear': 1, 'his_reason': 1}</div></div>
+</div>
+<div class="note">
+<strong>Method (short):</strong> Only explicit forward claims. Stated numbers score the headline. Likelihood words mapped to fixed inferred probabilities for a separate Brier. Unscorable could/might and deadline-free vibes stay in the table but are excluded from Brier denominators. Consensus used only when a dated number at claim time was found (often the meteorological figure he republished). Calibration by domain is not meaningful while n_resolved &lt; 8. Substack batch added pl-046–pl-068 on 9 Oct 2026; daily intake added pl-069–pl-074 on 11 Oct 2026. No new resolution, so both Brier scores are unchanged.
+</div>
+<div class="card" style="margin:16px 0">
+  <div class="k">Batch 1 hash (first 45 lines, 9 Oct 2026) — Bitcoin-confirmed</div>
+  <div class="hash">1b63678f1667007be75c89973a84cfecc5c491c04ff5fb13cc217885dbe24d5a</div>
+  <p class="small" style="margin:10px 0 0">OpenTimestamps proof ledger.jsonl.ots, submitted 9 Oct 2026, now attested in Bitcoin block 970534.</p>
+  <div class="k" style="margin-top:14px">Batch 2 hash (68 lines, Substack harvest, 9 Oct 2026) — Bitcoin-confirmed</div>
+  <div class="hash">f2525b26b1dc6ff01b1d96c750823bd93a746e5eff3dc607d9b74a705201f0ea</div>
+  <p class="small" style="margin:10px 0 0">Proof batches/ledger-2026-10-09-substack.jsonl.ots, attested in Bitcoin block 970582.</p>
+  <div class="k" style="margin-top:14px">Batch 3 hash (current ledger.jsonl, 74 lines, 11 Oct 2026) — Bitcoin confirmation pending</div>
+  <div class="hash">f5c58b2c70784a7a49140ea9e9fc8d90380e79cc6573c2bf77f5738f00fdc32a</div>
+  <p class="small" style="margin:10px 0 0">Proof batches/ledger-2026-10-11.jsonl.ots submitted 11 Oct 2026, 8:03am Sydney, to the public OpenTimestamps calendars. Public repo: https://github.com/ctindale-oss/prediction-ledger.</p>
+  <p class="small">Entries: 74 · stated 4 · inferred 57 · new this batch 6 (pl-069–pl-074) · file batches/batch-2026-10-11.json</p>
+</div>
+<h2>Claims</h2>
+<table>
+<thead><tr><th>ID</th><th>Date</th><th>Domain</th><th>Claim</th><th>p</th><th>Set</th><th>Status</th><th>Dir</th><th>Timing</th><th>Due</th></tr></thead>
+<tbody>
+<tr class='resolved_true'><td>pl-001</td><td>2026-04-23</td><td>climate</td><td class='claim'>meteorological consensus (NOAA CPC, IRI, ECMWF) confirms ENSO-neutral conditions will persist through June 2026, transitioning to an El Niño event by May–July 2026 with a 75% probability.</td><td>0.75</td><td>stated</td><td>resolved_true</td><td>right</td><td>right</td><td>2026-07-31</td></tr>
+<tr class='open'><td>pl-002</td><td>2026-04-23</td><td>climate</td><td class='claim'>NOAA forecasts indicate a 50% risk that El Niño conditions in 2026 will reach an intensity sufficient to force canal authorities to implement severe capacity and draft restrictions.</td><td>0.5</td><td>stated</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2026-12-31</td></tr>
+<tr class='open'><td>pl-003</td><td>2026-09-08</td><td>gold</td><td class='claim'>Where will it trade Silver will trade above $90 an ounce within twelve months. Physical demand will drive it.</td><td>0.9</td><td>inferred</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2027-09-08</td></tr>
+<tr class='open'><td>pl-004</td><td>2026-01-26</td><td>copper</td><td class='claim'>By 2028, demand (&gt;30 Mt) outstrips likely supply (~28-29 Mt) by roughly 1 to 2 million tonnes.</td><td>0.7</td><td>inferred</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2028-12-31</td></tr>
+<tr class='open'><td>pl-005</td><td>2026-01-26</td><td>copper</td><td class='claim'>Even under the most optimistic “perfect execution” scenarios, assuming no strikes, no political expropriations, and seamless project ramp-ups, the industry can physically scale to only ~25 Mt by 2028.</td><td>0.9</td><td>inferred</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2028-12-31</td></tr>
+<tr class='open'><td>pl-006</td><td>2026-01-26</td><td>copper</td><td class='claim'>This implies a global refined copper market exceeding 30 Mt by 2028.</td><td>0.7</td><td>inferred</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2028-12-31</td></tr>
+<tr class='open'><td>pl-007</td><td>2026-01-26</td><td>copper</td><td class='claim'>Inflationary Violence Copper prices will rise until they destroy demand. This is not a gentle slope; it is a violent correction. Prices must reach a level that forces the cancellation of the lowest-priority activities.</td><td>0.9</td><td>inferred</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2028-12-31</td></tr>
+<tr class='open'><td>pl-008</td><td>2026-01-26</td><td>copper</td><td class='claim'>The lag in copper supply means that the physical infrastructure required to energize the AI and Green revolutions simply will not be there.</td><td>0.9</td><td>inferred</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2028-12-31</td></tr>
+<tr class='resolved_true'><td>pl-009</td><td>2026-04-23</td><td>other</td><td class='claim'>Complete enforcement of the May 2026 sulphuric acid export halt is the baseline expectation. Any signs of quota easing or political exemptions will immediately signal a bearish reversal for global reagent pricing.</td><td>0.9</td><td>inferred</td><td>resolved_true</td><td>right</td><td>right</td><td>2026-08-31</td></tr>
+<tr class='open'><td>pl-010</td><td>2026-04-23</td><td>climate</td><td class='claim'>Consequently, the extreme under-application forced by the 2026–2027 crisis guarantees a persistent “yield hangover”, a structural suppression of global agricultural productivity that will extend through 2028 to 2030.</td><td>0.9</td><td>inferred</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2030-12-31</td></tr>
+<tr class='open'><td>pl-011</td><td>2026-04-23</td><td>geopolitics</td><td class='claim'>The collapse of local agricultural economies serves as a primary push-factor, highly likely to trigger mass, irregular migration events toward Europe and North America throughout late 2026 and 2027.</td><td>0.8</td><td>inferred</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2027-12-31</td></tr>
+<tr class='unresolved'><td>pl-012</td><td>2026-04-23</td><td>other</td><td class='claim'>If the dual shock holds its current trajectory, models project global fertiliser prices will average 15–20% higher through the first half of 2026.</td><td>0.7</td><td>inferred</td><td>unresolved</td><td>unresolved</td><td>unresolved</td><td>2026-06-30</td></tr>
+<tr class='open'><td>pl-013</td><td>2026-04-23</td><td>other</td><td class='claim'>This input pressure is projected to push baseline food price inflation up by 2 to 4 percentage points in developed markets through 2027.</td><td>0.7</td><td>inferred</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2027-12-31</td></tr>
+<tr class='open'><td>pl-014</td><td>2026-07-27</td><td>other</td><td class='claim'>IQ is a very imperfect way to rate AI, but for now, in 2026, it’s say 130-200; it will be in the 1000s by 2028.</td><td>0.9</td><td>inferred</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2028-12-31</td></tr>
+<tr class='open'><td>pl-015</td><td>2026-07-27</td><td>other</td><td class='claim'>a current open-weight model is 3 trillion parameters, in 3-4 years it is likely to be 100 trillion</td><td>0.7</td><td>inferred</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2030-07-27</td></tr>
+<tr class='open'><td>pl-016</td><td>2026-02-24</td><td>other</td><td class='claim'>AI Won't Nuke SaaS: Why the White-Collar Apocalypse Is Just Tech Bros' Dreaming Nonsense These white-collar Armageddon stories are nonsense</td><td>0.9</td><td>inferred</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2027-12-31</td></tr>
+<tr class='open'><td>pl-017</td><td>2026-02-11</td><td>other</td><td class='claim'>In 2026-2027, robots are expected to become permanent fixtures in large office buildings and smart campuses, handling concierge and navigation tasks.</td><td>0.7</td><td>inferred</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2027-12-31</td></tr>
+<tr class='open'><td>pl-018</td><td>2026-02-11</td><td>other</td><td class='claim'>By 2028-2029, household integration will scale up, with elder care robotics becoming standard for mobility assistance and medication reminders in ageing societies like Japan and Europe.</td><td>0.9</td><td>inferred</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2029-12-31</td></tr>
+<tr class='open'><td>pl-019</td><td>2026-01-09</td><td>geopolitics</td><td class='claim'>The “valley of death” for ammunition supply in 2026-2027 is a very real prospect.</td><td>0.7</td><td>inferred</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2027-12-31</td></tr>
+<tr class='open'><td>pl-020</td><td>2026-01-09</td><td>rare-earths</td><td class='claim'>The report identifies a gap (2026-2028) before new plants come online.</td><td>0.7</td><td>inferred</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2028-12-31</td></tr>
+<tr class='open'><td>pl-021</td><td>2026-01-09</td><td>copper</td><td class='claim'>With no inventory buffer left, price volatility will impair both grid expansion and missile production.</td><td>0.9</td><td>inferred</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2027-12-31</td></tr>
+<tr class='unscorable'><td>pl-022</td><td>2026-09-11</td><td>energy</td><td class='claim'>$100 oil looks cheap</td><td></td><td></td><td>unscorable</td><td>n/a</td><td>n/a</td><td></td></tr>
+<tr class='unscorable'><td>pl-023</td><td>2026-09-27</td><td>copper</td><td class='claim'>Depends which metal you mean , find probably not , silver maybe , copper and zinc absolutely</td><td>0.9</td><td>inferred</td><td>unscorable</td><td>n/a</td><td>n/a</td><td></td></tr>
+<tr class='open'><td>pl-024</td><td>2026-09-21</td><td>copper</td><td class='claim'>The world simply can’t build what it plans to build it can’t  supply the bill of materials</td><td>0.9</td><td>inferred</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2028-12-31</td></tr>
+<tr class='unscorable'><td>pl-025</td><td>2026-08-31</td><td>climate</td><td class='claim'>If the forecast said 2100, it probably should have said 2030.</td><td>0.7</td><td>inferred</td><td>unscorable</td><td>n/a</td><td>n/a</td><td></td></tr>
+<tr class='open'><td>pl-026</td><td>2026-08-31</td><td>climate</td><td class='claim'>It is unstoppable - renewables will make very little difference. By any objective measure, renewable energy is making very little headway</td><td>0.9</td><td>inferred</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2035-12-31</td></tr>
+<tr class='open'><td>pl-027</td><td>2026-09-07</td><td>climate</td><td class='claim'>Global heat into 2027 — High. The WMO outlook supports continued warmth as El Niño’s influence carries beyond its expected late-2026 peak.</td><td>0.8</td><td>inferred</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2027-12-31</td></tr>
+<tr class='open'><td>pl-028</td><td>2026-09-07</td><td>climate</td><td class='claim'>Andrew Watkins told ABC that 2027 is “almost a dead cert” to be the hottest year.</td><td>0.9</td><td>inferred</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2027-12-31</td></tr>
+<tr class='open'><td>pl-029</td><td>2026-09-07</td><td>climate</td><td class='claim'>WMO puts persistence through February 2027 near 100%.</td><td>0.9</td><td>stated</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2027-02-28</td></tr>
+<tr class='open'><td>pl-030</td><td>2026-01-26</td><td>copper</td><td class='claim'>By 2028, AI and data infrastructure are on track to add about 0.5 to 0.6 Mt of annual copper demand above 2024 levels.</td><td>0.7</td><td>inferred</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2028-12-31</td></tr>
+<tr class='open'><td>pl-031</td><td>2026-01-26</td><td>copper</td><td class='claim'>The cumulative deployment of NVIDIA-based AI systems over these four years will require about 268,450 tonnes of copper.</td><td>0.9</td><td>inferred</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2029-12-31</td></tr>
+<tr class='open'><td>pl-032</td><td>2026-07-27</td><td>other</td><td class='claim'>Rubin Ultra due in 2027 and Feynman in 2028, one new generation every year.</td><td>0.8</td><td>inferred</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2028-12-31</td></tr>
+<tr class='open'><td>pl-033</td><td>2026-09-21</td><td>copper</td><td class='claim'>Grades started out in 1992 at 2.5-3% now they are FY25: 1.02% , FY26: 0.90% , FY27 about 0.70%.</td><td>0.7</td><td>inferred</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2027-06-30</td></tr>
+<tr class='open'><td>pl-034</td><td>2026-07-11</td><td>asx-equity</td><td class='claim'>Australians are financially illiterate , stressed and about to cop an economic hiding .</td><td>0.7</td><td>inferred</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2027-07-11</td></tr>
+<tr class='unscorable'><td>pl-035</td><td>2026-04-23</td><td>other</td><td class='claim'>In emerging markets, local food inflation could spike by 15–25% year-on-year</td><td></td><td></td><td>unscorable</td><td>n/a</td><td>n/a</td><td>2027-12-31</td></tr>
+<tr class='unscorable'><td>pl-036</td><td>2026-01-22</td><td>copper</td><td class='claim'>where we're saying the copper demand's going up. Significantly so the price will go up. That's old analysis. The new analysis says the copper demand's going up. They have complete control of the supply, so our copper cos</td><td></td><td></td><td>unscorable</td><td>n/a</td><td>n/a</td><td></td></tr>
+<tr class='unscorable'><td>pl-037</td><td>2026-01-22</td><td>asx-equity</td><td class='claim'>MTM for instance, I think I bought at 8 cents and it's near a dollar at the moment. I wouldn't be surprised that goes to $50 at some stage.</td><td></td><td></td><td>unscorable</td><td>n/a</td><td>n/a</td><td></td></tr>
+<tr class='open'><td>pl-038</td><td>2026-01-22</td><td>energy</td><td class='claim'>Siemens at the moment have 138 b euro back order on equipment, things like the major transformers the major transformers are taking four to five years to be delivered.</td><td>0.8</td><td>inferred</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2027-01-22</td></tr>
+<tr class='unresolved'><td>pl-039</td><td>2026-01-09</td><td>copper</td><td class='claim'>The market faces a projected supply deficit of &gt;500,000 tonnes in 2025.</td><td>0.7</td><td>inferred</td><td>unresolved</td><td>unresolved</td><td>unresolved</td><td>2026-03-31</td></tr>
+<tr class='open'><td>pl-040</td><td>2026-05-25</td><td>asx-equity</td><td class='claim'>That behaviour will start changing before 1 July 2027, even though Treasury says the transition is designed to minimise date-driven buy-and-sell distortions.</td><td>0.9</td><td>inferred</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2027-07-01</td></tr>
+<tr class='open'><td>pl-041</td><td>2026-09-22</td><td>gold</td><td class='claim'>The more data centres and defense need silver, the more the price will rise.</td><td>0.9</td><td>inferred</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2027-09-22</td></tr>
+<tr class='unscorable'><td>pl-042</td><td>2026-08-13</td><td>copper</td><td class='claim'>At this pace, it will take 187 years to extract enough copper for the energy transition.</td><td></td><td></td><td>unscorable</td><td>n/a</td><td>n/a</td><td></td></tr>
+<tr class='open'><td>pl-043</td><td>2026-09-07</td><td>copper</td><td class='claim'>Chilean copper disruption; Peru watch — Medium–High. Chilean interruptions and the Caserones guidance reduction are observed. Further disruption depends on damage to access, power or transport.</td><td>0.7</td><td>inferred</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2027-03-31</td></tr>
+<tr class='open'><td>pl-044</td><td>2026-09-07</td><td>climate</td><td class='claim'>Southern African maize — Medium–High. The regional outlook favours drier conditions during the 2026–27 growing season. Yield losses could increase import requirements.</td><td>0.7</td><td>inferred</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2027-06-30</td></tr>
+<tr class='open'><td>pl-045</td><td>2026-04-23</td><td>other</td><td class='claim'>In response to the 2026 reagent and climate shocks, the deployment of capital-intensive agricultural technologies is likely to accelerate rapidly.</td><td>0.7</td><td>inferred</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2027-12-31</td></tr>
+<tr class='open'><td>pl-046</td><td>2026-04-21</td><td>copper</td><td class='claim'>Copper is likely going past $15,000, but if you are an acid-dependent producer, your market cap might go down.</td><td>0.7</td><td>inferred</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2027-04-21</td></tr>
+<tr class='open'><td>pl-047</td><td>2026-06-24</td><td>energy</td><td class='claim'>Germany’s planned 2026 abolition of double-counting for Annex IX waste feedstocks will effectively double domestic HVO demand overnight.</td><td>0.9</td><td>inferred</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2026-12-31</td></tr>
+<tr class='open'><td>pl-048</td><td>2026-06-24</td><td>energy</td><td class='claim'>Government-backed SAF producers and European transport mandates will outbid Pilbara miners for every available drop of feedstock.</td><td>0.9</td><td>inferred</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2030-12-31</td></tr>
+<tr class='open'><td>pl-049</td><td>2026-04-23</td><td>geopolitics</td><td class='claim'>This dynamic will invariably lead to severe balance-of-payments crises, potential sovereign defaults, and forced debt restructurings through multilateral institutions by late 2027.</td><td>0.9</td><td>inferred</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2027-12-31</td></tr>
+<tr class='open'><td>pl-050</td><td>2026-01-09</td><td>geopolitics</td><td class='claim'>Resource Fratricide: Before we fight China, we will likely see a trade war between the US and the EU for offtake agreements.</td><td>0.7</td><td>inferred</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2028-12-31</td></tr>
+<tr class='open'><td>pl-051</td><td>2026-09-07</td><td>climate</td><td class='claim'>Forecasts give this event a 69% shot at beating every El Niño since 1950 on RONI, with a pile of models at or above +3.0°C Niño-3.4.</td><td>0.69</td><td>stated</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2027-06-30</td></tr>
+<tr class='open'><td>pl-052</td><td>2026-02-11</td><td>other</td><td class='claim'>By 2040, Africa will be the only region with a growing working-age population, requiring the creation of 2 million jobs per month to absorb new entrants.</td><td>0.9</td><td>inferred</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2040-12-31</td></tr>
+<tr class='open'><td>pl-053</td><td>2026-01-19</td><td>copper</td><td class='claim'>By 2024, China controlled more than 45% of global smelting and refining capacity, with projections exceeding 50% by 2040</td><td>0.7</td><td>inferred</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2040-12-31</td></tr>
+<tr class='open'><td>pl-054</td><td>2026-06-24</td><td>rare-earths</td><td class='claim'>The West is unintentionally transferring $20–28 billion annually in critical minerals value to China, a loss projected to grow to $150–220 billion over the next decade.</td><td>0.7</td><td>inferred</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2036-06-24</td></tr>
+<tr class='open'><td>pl-055</td><td>2026-05-16</td><td>other</td><td class='claim'>Second, the geopolitical weaponisation of reagents will intensify.</td><td>0.9</td><td>inferred</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2028-12-31</td></tr>
+<tr class='open'><td>pl-056</td><td>2026-03-16</td><td>other</td><td class='claim'>The recurrence of high-severity fires in the battery and recycling sectors will likely drive a “hard market” for industrial property insurance.</td><td>0.7</td><td>inferred</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2028-12-31</td></tr>
+<tr class='open'><td>pl-057</td><td>2026-04-19</td><td>other</td><td class='claim'>The harder it is for any serious player to wait, the more likely it is that spending will outpace value capture.</td><td>0.6</td><td>inferred</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2028-12-31</td></tr>
+<tr class='unresolved'><td>pl-058</td><td>2026-04-03</td><td>other</td><td class='claim'>The full model will be published in the coming weeks.</td><td>0.9</td><td>inferred</td><td>unresolved</td><td>unresolved</td><td>unresolved</td><td>2026-05-31</td></tr>
+<tr class='unscorable'><td>pl-059</td><td>2026-09-08</td><td>gold</td><td class='claim'>Where it runs after that is anyone’s guess; the structural deficit and the forecast demand can’t rule out $500 by 2030.</td><td></td><td></td><td>unscorable</td><td>n/a</td><td>n/a</td><td>2030-12-31</td></tr>
+<tr class='unscorable'><td>pl-060</td><td>2026-04-16</td><td>asx-equity</td><td class='claim'>As the population ages and global fertility rates decline, the pipeline of new borrowers needed to sustain $12.3 trillion in valuations will inevitably shrink.</td><td>0.9</td><td>inferred</td><td>unscorable</td><td>n/a</td><td>n/a</td><td></td></tr>
+<tr class='unscorable'><td>pl-061</td><td>2026-02-05</td><td>other</td><td class='claim'>This is the tragic irony of the modern investor: the pennies saved on management fees will be lost 10-100 fold to unmanaged systemic risk.</td><td>0.9</td><td>inferred</td><td>unscorable</td><td>n/a</td><td>n/a</td><td></td></tr>
+<tr class='unscorable'><td>pl-062</td><td>2026-04-26</td><td>climate</td><td class='claim'>Shortages During What Could Strongest El Nino in Our Lifetimes Puts Famine in the Forecast for 2026-2027</td><td></td><td></td><td>unscorable</td><td>n/a</td><td>n/a</td><td>2027-12-31</td></tr>
+<tr class='unscorable'><td>pl-063</td><td>2026-04-26</td><td>other</td><td class='claim'>The reality is that the global banking framework is orchestrated together as they are about to amplify the greatest global crisis in history</td><td>0.9</td><td>inferred</td><td>unscorable</td><td>n/a</td><td>n/a</td><td></td></tr>
+<tr class='unscorable'><td>pl-064</td><td>2026-01-08</td><td>other</td><td class='claim'>We are using ludicrous, reckless models to manage the economy, and the result will likely be existential.</td><td>0.7</td><td>inferred</td><td>unscorable</td><td>n/a</td><td>n/a</td><td></td></tr>
+<tr class='unscorable'><td>pl-065</td><td>2026-09-08</td><td>geopolitics</td><td class='claim'>The answer is it can't and most likely won't.</td><td>0.7</td><td>inferred</td><td>unscorable</td><td>n/a</td><td>n/a</td><td></td></tr>
+<tr class='unscorable'><td>pl-066</td><td>2026-06-17</td><td>climate</td><td class='claim'>When it happens is another story; 2025-2060 is the range, with some further beyond.</td><td></td><td></td><td>unscorable</td><td>n/a</td><td>n/a</td><td></td></tr>
+<tr class='unscorable'><td>pl-067</td><td>2026-08-13</td><td>copper</td><td class='claim'>The state will never sacrifice its AI supremacy or semiconductor independence to build a wind farm.</td><td>0.9</td><td>inferred</td><td>unscorable</td><td>n/a</td><td>n/a</td><td></td></tr>
+<tr class='open'><td>pl-068</td><td>2026-01-09</td><td>copper</td><td class='claim'>Any country that tries to build new capacity hits the same wall: China will undercut until the project breaks.</td><td>0.9</td><td>inferred</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2028-12-31</td></tr>
+<tr class='unscorable'><td>pl-069</td><td>2026-09-28</td><td>geopolitics</td><td class='claim'>If we let it, it will follow the same path to the rest of the world.</td><td></td><td></td><td>unscorable</td><td>n/a</td><td>n/a</td><td></td></tr>
+<tr class='unscorable'><td>pl-070</td><td>2026-09-28</td><td>geopolitics</td><td class='claim'>The US escaped, though probably only till the midterms, because the overlords are nigh in the Democratic Party and, as Obama hinted the other day, they are well entrenched in the AI companies.</td><td></td><td></td><td>unscorable</td><td>n/a</td><td>n/a</td><td></td></tr>
+<tr class='open'><td>pl-071</td><td>2026-10-10</td><td>other</td><td class='claim'>even Menzies who got an essay coming out in the next few weeks about how capitalism has moved to a form of free market capitalism that is claimed to be the most efficient but it's not. It eventually hollows out your econ</td><td>0.9</td><td>inferred</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2026-11-30</td></tr>
+<tr class='unscorable'><td>pl-072</td><td>2026-10-10</td><td>gold</td><td class='claim'>If governments can't pay their bills governments takes the people's money domestically to pay . Tax , spending cuts or inflation - they'll choose inflation</td><td></td><td></td><td>unscorable</td><td>n/a</td><td>n/a</td><td></td></tr>
+<tr class='unscorable'><td>pl-073</td><td>2026-10-10</td><td>geopolitics</td><td class='claim'>Eventually it leads to Bretton Woods 3-4-5 because I suspect it will take a few guys to get it right</td><td></td><td></td><td>unscorable</td><td>n/a</td><td>n/a</td><td></td></tr>
+<tr class='unscorable'><td>pl-074</td><td>2026-10-10</td><td>other</td><td class='claim'>So while you might think the USD-denominated bonds are in the most trouble, the AUD is &quot;saying hold my beer&quot;</td><td></td><td></td><td>unscorable</td><td>n/a</td><td>n/a</td><td></td></tr>
+
+</tbody>
+</table>
+<p class="small">Derived from append-only ledger.jsonl. Do not treat inferred Brier as skill. Confirm inferred rows in inferred-to-confirm.csv.</p>
+</main>
+</body>
+</html>
