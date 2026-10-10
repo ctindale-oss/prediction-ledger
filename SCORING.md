@@ -184,3 +184,22 @@ Calibration is not meaningful in any domain: every domain has n_resolved < 8.
 - where-we-are-today-the-mechanics.txt
 - why-young-adults-are-less-reliable.txt
 - you-cannot-unsee-the-loops.txt
+
+## Daily intake — 11 Oct 2026 (Australia/Sydney)
+
+Appended only. Prior SHA-256 `f2525b26b1dc6ff01b1d96c750823bd93a746e5eff3dc607d9b74a705201f0ea`. New SHA-256 `f5c58b2c70784a7a49140ea9e9fc8d90380e79cc6573c2bf77f5738f00fdc32a` (74 lines). Batch file `batches/batch-2026-10-11.json`. OpenTimestamps submitted 11 Oct 2026 8:03am Sydney; Bitcoin attestation pending. Batch 1 and batch 2 proofs are now Bitcoin-confirmed (blocks 970534 and 970582).
+
+### Searched
+- Substack RSS: no new essay since The Invisible Army (28 Sep 2026). That essay had been missed by the 9 Oct harvest and was read now.
+- X @ctindale posts and replies, 10 Oct 2026 7:30am to 11 Oct 8:00am Sydney (8 posts).
+- Interviews: none new found.
+
+### New lines (pl-069 to pl-074)
+- pl-069, pl-070 (The Invisible Army): online-safety powers spreading abroad; US "probably only till the midterms". Both unscorable.
+- pl-071 (X): promised essay on free-market vs Hamilton/Menzies state capitalism "in the next few weeks". Inferred 0.90, due 30 Nov 2026, queued in inferred-to-confirm.csv.
+- pl-072, pl-073, pl-074 (X): governments "will choose inflation"; "Bretton Woods 3-4-5"; AUD "hold my beer" vs USD bonds. All unscorable.
+
+Not logged: the market's 10y10y expectation he describes (a reading of investors, not his call); the government's own statement that it will introduce the bill in 2026.
+
+### Resolutions
+None due. Earliest open resolution date is 2026-11-30 (pl-071), then 2026-12-31. Scores unchanged: stated Brier 0.0625 (n=1), inferred Brier 0.01 (n=1). Totals: 74 lines, 48 open, 2 resolved true, 0 false, 3 unresolved, 21 unscorable.
