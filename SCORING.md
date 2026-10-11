@@ -203,3 +203,20 @@ Not logged: the market's 10y10y expectation he describes (a reading of investors
 
 ### Resolutions
 None due. Earliest open resolution date is 2026-11-30 (pl-071), then 2026-12-31. Scores unchanged: stated Brier 0.0625 (n=1), inferred Brier 0.01 (n=1). Totals: 74 lines, 48 open, 2 resolved true, 0 false, 3 unresolved, 21 unscorable.
+
+## Daily intake — 12 Oct 2026 (Australia/Sydney)
+
+Appended only. Prior SHA-256 `f5c58b2c70784a7a49140ea9e9fc8d90380e79cc6573c2bf77f5738f00fdc32a`. New SHA-256 `935466e6e87487bff4e1ec4e27b1cd34e3c7794c364f9f794f97669c9a96ef0a` (75 lines). Batch file `batches/batch-2026-10-12.json`. OpenTimestamps submitted 12 Oct 2026 8:03am Sydney; Bitcoin attestation pending. Batch 3 proof is now Bitcoin-confirmed (block 970834).
+
+### Searched
+- Substack RSS: no new essay since The Invisible Army (28 Sep 2026).
+- X @ctindale posts and replies, 11 Oct 2026 7:00am to 12 Oct 8:02am Sydney (4 posts, retweets excluded).
+- Interviews: none new found.
+
+### New lines (pl-075)
+- pl-075 (X): "What if all apps could be copied perfectly in a few days or weeks ? . That might be the truth in a few months". 'Might' is not a forecast under the word map; logged as unscorable.
+
+Not logged: replies on AI lacking judgment, on a clean-room engineering loophole, and a question to another user; none is a forecast.
+
+### Resolutions
+None due. Earliest open resolution date is 2026-11-30 (pl-071), then 2026-12-31. Scores unchanged: stated Brier 0.0625 (n=1), inferred Brier 0.01 (n=1). Totals: 75 lines, 48 open, 2 resolved true, 0 false, 3 unresolved, 22 unscorable.
