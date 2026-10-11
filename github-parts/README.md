@@ -11,7 +11,9 @@ SHA-256: `1b63678f1667007be75c89973a84cfecc5c491c04ff5fb13cc217885dbe24d5a`
 Those lines are also stored as `github-parts/batch1-01.jsonl` onward.
 Proof: `batches/ledger-2026-10-09-batch1.jsonl.ots` (already in the repo as the earlier ots file) and `batches/ledger-2026-10-09-substack.jsonl.ots.b64` for the full 68-line file.
 
-Daily intake 11 Oct 2026 added `ledger-14.jsonl` (pl-069 to pl-074). SHA-256 of ledger-01..14: `f5c58b2c70784a7a49140ea9e9fc8d90380e79cc6573c2bf77f5738f00fdc32a`. Proof: `batches/ledger-2026-10-11.jsonl.ots.b64`.
+Daily intake 11 Oct 2026 added `ledger-14.jsonl` (pl-069 to pl-074). SHA-256 of ledger-01..14: `f5c58b2c70784a7a49140ea9e9fc8d90380e79cc6573c2bf77f5738f00fdc32a`. Proof: `batches/ledger-2026-10-11.jsonl.ots.b64` (Bitcoin block 970834).
+
+Daily intake 12 Oct 2026 added `ledger-15.jsonl` (pl-075). SHA-256 of ledger-01..15: `935466e6e87487bff4e1ec4e27b1cd34e3c7794c364f9f794f97669c9a96ef0a`. Proof: `batches/ledger-2026-10-12.jsonl.ots.b64` (Bitcoin confirmation pending).
 
 To check:
 
