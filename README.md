@@ -17,3 +17,5 @@ Scorecard: `scorecard.html`. Method: `SCORING.md`.
 Update 11 Oct 2026: batch 1 and batch 2 proofs are Bitcoin-confirmed (blocks 970534 and 970582). The ledger is now 74 lines; see `github-parts/README.md` and `batches/batch-2026-10-11.json`. Current SHA-256 `f5c58b2c70784a7a49140ea9e9fc8d90380e79cc6573c2bf77f5738f00fdc32a`, OpenTimestamps pending.
 
 Update 12 Oct 2026: the batch 3 proof (74 lines, `f5c58b2c...`) is Bitcoin-confirmed (block 970834). The ledger is now 75 lines; see `batches/batch-2026-10-12.json`. Current SHA-256 `935466e6e87487bff4e1ec4e27b1cd34e3c7794c364f9f794f97669c9a96ef0a`, OpenTimestamps pending.
+
+Update 13 Oct 2026: the batch 4 proof (75 lines, `935466e6...`) is Bitcoin-confirmed (block 970983). The ledger is now 79 lines; see `batches/batch-2026-10-13.json`. Current SHA-256 `8895e407a0cb6de4c7f01cca78185d386b748dcec78e264c546c1efd07a819d2`, OpenTimestamps pending.

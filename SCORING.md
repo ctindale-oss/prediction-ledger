@@ -220,3 +220,24 @@ Not logged: replies on AI lacking judgment, on a clean-room engineering loophole
 
 ### Resolutions
 None due. Earliest open resolution date is 2026-11-30 (pl-071), then 2026-12-31. Scores unchanged: stated Brier 0.0625 (n=1), inferred Brier 0.01 (n=1). Totals: 75 lines, 48 open, 2 resolved true, 0 false, 3 unresolved, 22 unscorable.
+
+## Daily intake — 13 Oct 2026 (Australia/Sydney)
+
+Appended only. Prior SHA-256 `935466e6e87487bff4e1ec4e27b1cd34e3c7794c364f9f794f97669c9a96ef0a`. New SHA-256 `8895e407a0cb6de4c7f01cca78185d386b748dcec78e264c546c1efd07a819d2` (79 lines). Batch file `batches/batch-2026-10-13.json`. OpenTimestamps submitted 13 Oct 2026 8:08am Sydney; Bitcoin attestation pending. Batch 4 proof is now Bitcoin-confirmed (block 970983).
+
+### Searched
+- Substack RSS: one new essay, "Sovereign Black Warrant: India's Existential Material Trap" (12 Oct 2026, 2:00pm Sydney), read in full from the feed.
+- X @ctindale posts and replies, 12 Oct 2026 8:02am to 13 Oct 8:06am Sydney (20 posts, retweets excluded).
+- X article "Net-Zero by 2050 Came From Computer Models. So Did the Fictional Fantasy Machines That Make It Work." (https://x.com/ctindale/status/2109528525762109557, 12 Oct 2026): could not be read (API returns title only; the web page returns 403). Not yet extracted; retry next run.
+- Interviews: none new found.
+
+### New lines (pl-076 to pl-079)
+- pl-076 (Substack): "no Indian sintered magnet will come off a line before late 2028." Inferred 0.90 from 'will'; scope fixed to sintered NdFeB on a commercial line; due 30 Sep 2028; queued in inferred-to-confirm.csv. Possible scope conflict flagged in notes (reported IREL samarium-cobalt plant), not verified.
+- pl-077 (Substack): solar module sheds "cold within weeks" under an embargo. Conditional, unscorable.
+- pl-078 (Substack): "Ten weeks of chemical stock will not outlast an embargo." Conditional, unscorable.
+- pl-079 (Substack): "The next shortage will be of things dollars cannot buy." No deadline, unscorable.
+
+Not logged: NALCO administrators' expectation on gallium (their call, not his); the Mines Secretary's stockpile-policy timing (the government's call); X replies on Australia ("We're screwed"), the EU, Frank Knight, e-waste and Bible translation, none a forecast.
+
+### Resolutions
+None due. Earliest open resolution date is 2026-11-30 (pl-071), then 2026-12-31. Scores unchanged: stated Brier 0.0625 (n=1), inferred Brier 0.01 (n=1). Totals: 79 lines, 49 open, 2 resolved true, 0 false, 3 unresolved, 25 unscorable.

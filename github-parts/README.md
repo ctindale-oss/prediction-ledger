@@ -13,7 +13,9 @@ Proof: `batches/ledger-2026-10-09-batch1.jsonl.ots` (already in the repo as the 
 
 Daily intake 11 Oct 2026 added `ledger-14.jsonl` (pl-069 to pl-074). SHA-256 of ledger-01..14: `f5c58b2c70784a7a49140ea9e9fc8d90380e79cc6573c2bf77f5738f00fdc32a`. Proof: `batches/ledger-2026-10-11.jsonl.ots.b64` (Bitcoin block 970834).
 
-Daily intake 12 Oct 2026 added `ledger-15.jsonl` (pl-075). SHA-256 of ledger-01..15: `935466e6e87487bff4e1ec4e27b1cd34e3c7794c364f9f794f97669c9a96ef0a`. Proof: `batches/ledger-2026-10-12.jsonl.ots.b64` (Bitcoin confirmation pending).
+Daily intake 12 Oct 2026 added `ledger-15.jsonl` (pl-075). SHA-256 of ledger-01..15: `935466e6e87487bff4e1ec4e27b1cd34e3c7794c364f9f794f97669c9a96ef0a`. Proof: `batches/ledger-2026-10-12.jsonl.ots.b64` (Bitcoin block 970983).
+
+Daily intake 13 Oct 2026 added `ledger-16.jsonl` (pl-076 to pl-079). SHA-256 of ledger-01..16: `8895e407a0cb6de4c7f01cca78185d386b748dcec78e264c546c1efd07a819d2`. Proof: `batches/ledger-2026-10-13.jsonl.ots.b64` (Bitcoin confirmation pending).
 
 To check:
 
