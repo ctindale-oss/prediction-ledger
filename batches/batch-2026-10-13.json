@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-10-13T08:08:45+11:00",
+  "file": "ledger.jsonl",
+  "sha256": "8895e407a0cb6de4c7f01cca78185d386b748dcec78e264c546c1efd07a819d2",
+  "entry_count": 4,
+  "total_lines": 79,
+  "prior_sha256": "935466e6e87487bff4e1ec4e27b1cd34e3c7794c364f9f794f97669c9a96ef0a",
+  "new_ids": ["pl-076", "pl-077", "pl-078", "pl-079"],
+  "note": "Daily intake. Appended only; the first 75 lines still hash to prior_sha256. The proof is over batches/ledger-2026-10-13.jsonl, a byte-identical copy of ledger.jsonl at this point (= concatenation of github-parts/ledger-01..16.jsonl).",
+  "ots_submitted_at": "2026-10-13T08:08:45+11:00",
+  "ots_file": "batches/ledger-2026-10-13.jsonl.ots (text copy: .ots.b64)",
+  "bitcoin_attestation": "pending",
+  "earlier_proofs_upgraded": {"batches/ledger-2026-10-12.jsonl.ots (batch 4, 9354...)": "Bitcoin block 970983"}
+}
