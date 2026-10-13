@@ -19,3 +19,8 @@ Update 11 Oct 2026: batch 1 and batch 2 proofs are Bitcoin-confirmed (blocks 970
 Update 12 Oct 2026: the batch 3 proof (74 lines, `f5c58b2c...`) is Bitcoin-confirmed (block 970834). The ledger is now 75 lines; see `batches/batch-2026-10-12.json`. Current SHA-256 `935466e6e87487bff4e1ec4e27b1cd34e3c7794c364f9f794f97669c9a96ef0a`, OpenTimestamps pending.
 
 Update 13 Oct 2026: the batch 4 proof (75 lines, `935466e6...`) is Bitcoin-confirmed (block 970983). The ledger is now 79 lines; see `batches/batch-2026-10-13.json`. Current SHA-256 `8895e407a0cb6de4c7f01cca78185d386b748dcec78e264c546c1efd07a819d2`, OpenTimestamps pending.
+
+## Daily intake 14 Oct 2026
+- SHA-256(ledger.jsonl) = `0dc623597362a34ceb1bd44bbf9b7014c33aa571b5f5ab597dca1036d478cc3a` (85 lines; 84 active after supersede)
+- New: pl-080–pl-084 from net-zero X article + Banking Swadeshi Part Two; resolved pl-039 false
+- Proof: batches/ledger-2026-10-14.jsonl.ots (Bitcoin pending). Prior batch 8895… now Bitcoin-confirmed (971142+).
