@@ -20,3 +20,5 @@ Daily intake 13 Oct 2026 added `ledger-16.jsonl` (pl-076 to pl-079). SHA-256 of 
 To check:
 
     cat github-parts/ledger-*.jsonl | sha256sum
+
+Daily intake 14 Oct 2026 added `ledger-17.jsonl` (pl-039 resolution + pl-080 to pl-084). SHA-256 of ledger-01..17: `0dc623597362a34ceb1bd44bbf9b7014c33aa571b5f5ab597dca1036d478cc3a`. Proof: `batches/ledger-2026-10-14.jsonl.ots.b64` (Bitcoin confirmation pending). Batch 5 (8895...) now Bitcoin-confirmed (blocks 971142/971147/971177).

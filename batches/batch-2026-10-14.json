@@ -1,0 +1,35 @@
+{
+  "created_at": "2026-10-14T08:06:41+11:00",
+  "file": "ledger.jsonl",
+  "sha256": "0dc623597362a34ceb1bd44bbf9b7014c33aa571b5f5ab597dca1036d478cc3a",
+  "entry_count": 6,
+  "total_lines": 85,
+  "active_entries": 84,
+  "prior_sha256": "8895e407a0cb6de4c7f01cca78185d386b748dcec78e264c546c1efd07a819d2",
+  "new_ids": [
+    "pl-080",
+    "pl-081",
+    "pl-082",
+    "pl-083",
+    "pl-084"
+  ],
+  "resolutions": [
+    {
+      "id": "pl-039",
+      "status": "resolved_false",
+      "brief": "ICSG 2025 refined copper was a surplus (~380\u2013455 kt), not deficit >500 kt"
+    }
+  ],
+  "still_unresolved_due": [
+    "pl-012",
+    "pl-058"
+  ],
+  "note": "Daily intake 14 Oct 2026. Appended only; first 79 lines still hash to prior_sha256. Added net-zero X article forecasts (pl-080\u2013083), Part Two unscorable (pl-084), and superseding resolution of pl-039. Proof over batches/ledger-2026-10-14.jsonl (= concat github-parts/ledger-01..17.jsonl).",
+  "ots_submitted_at": "2026-10-14T08:06:41+11:00",
+  "ots_file": "batches/ledger-2026-10-14.jsonl.ots (text copy: .ots.b64)",
+  "bitcoin_attestation": "pending",
+  "earlier_proofs_upgraded": {
+    "batches/ledger-2026-10-13.jsonl.ots (batch 5, 8895...)": "Bitcoin blocks 971142 / 971147 / 971177",
+    "batches/ledger-2026-10-12.jsonl.ots (batch 4, 9354...)": "already Bitcoin-confirmed (970983+)"
+  }
+}
