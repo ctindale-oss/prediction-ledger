@@ -24,3 +24,9 @@ Update 13 Oct 2026: the batch 4 proof (75 lines, `935466e6...`) is Bitcoin-confi
 - SHA-256(ledger.jsonl) = `0dc623597362a34ceb1bd44bbf9b7014c33aa571b5f5ab597dca1036d478cc3a` (85 lines; 84 active after supersede)
 - New: pl-080–pl-084 from net-zero X article + Banking Swadeshi Part Two; resolved pl-039 false
 - Proof: batches/ledger-2026-10-14.jsonl.ots (Bitcoin pending). Prior batch 8895… now Bitcoin-confirmed (971142+).
+
+
+## Daily intake 15 Oct 2026
+- SHA-256(ledger.jsonl) = `84345da4d13374fc67173dc8d334ede1050a1af300f90cb51372ecce7035e990` (86 lines; 85 active after supersede)
+- New: pl-085 (unscorable X reply to Ray Dalio). No call fell due.
+- Proof: batches/ledger-2026-10-15.jsonl.ots (Bitcoin pending). Prior batch 0dc6… now Bitcoin-confirmed (blocks 971303/971354/971357).

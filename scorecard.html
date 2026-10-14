@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Craig Tindale — Prediction Ledger Scorecard (2026-10-14)</title>
+<title>Craig Tindale — Prediction Ledger Scorecard (2026-10-15)</title>
 <style>
 :root { --bg:#0f1419; --card:#1a2332; --text:#e7ecf3; --muted:#9aa7b8; --good:#3dd68c; --bad:#ff6b6b; --open:#6cb6ff; --warn:#ffd166; }
 * { box-sizing:border-box; }
@@ -33,26 +33,26 @@ tr.unscorable td:nth-child(7), tr.unresolved td:nth-child(7) { color:var(--warn)
 <body>
 <main>
 <h1>Prediction Ledger Scorecard</h1>
-<p class="sub">Craig Tindale · daily intake · 14 Oct 2026 (Australia/Sydney) · n=84 logged claims · <strong>small-n: treat scores as provisional</strong></p>
+<p class="sub">Craig Tindale · daily intake · 13 Oct 2026 (Australia/Sydney) · n=85 logged claims · <strong>small-n: treat scores as provisional</strong></p>
 <div class="grid">
   <div class="card"><div class="k">Stated Brier (headline skill)</div><div class="v">0.0625</div><div class="n">n = 1 resolved stated</div></div>
   <div class="card"><div class="k">Inferred Brier (reading, not skill)</div><div class="v">0.25</div><div class="n">n = 2 resolved inferred</div></div>
   <div class="card"><div class="k">Edge vs consensus</div><div class="v">0.0</div><div class="n">mean (his Brier − consensus Brier); n = 1</div></div>
-  <div class="card"><div class="k">Resolved T / F / unresolved</div><div class="v">2 / 1 / 2</div><div class="n">open 53 · unscorable 26</div></div>
+  <div class="card"><div class="k">Resolved T / F / unresolved</div><div class="v">2 / 1 / 2</div><div class="n">open 53 · unscorable 27</div></div>
 </div>
 <div class="grid" style="margin-top:12px">
-  <div class="card"><div class="k">Direction</div><div class="v" style="font-size:1rem">{'right': 2, 'unresolved': 55, 'n/a': 26, 'wrong': 1}</div></div>
-  <div class="card"><div class="k">Timing (incl. right-but-early)</div><div class="v" style="font-size:1rem">{'right': 2, 'unresolved': 55, 'n/a': 27}</div><div class="n">early count = 0</div></div>
-  <div class="card"><div class="k">Magnitude</div><div class="v" style="font-size:1rem">{'n/a': 62, 'unresolved': 21, 'wrong': 1}</div></div>
+  <div class="card"><div class="k">Direction</div><div class="v" style="font-size:1rem">{'right': 2, 'unresolved': 55, 'n/a': 27, 'wrong': 1}</div></div>
+  <div class="card"><div class="k">Timing (incl. right-but-early)</div><div class="v" style="font-size:1rem">{'right': 2, 'unresolved': 55, 'n/a': 28}</div><div class="n">early count = 0</div></div>
+  <div class="card"><div class="k">Magnitude</div><div class="v" style="font-size:1rem">{'n/a': 63, 'unresolved': 21, 'wrong': 1}</div></div>
   <div class="card"><div class="k">Mechanism (resolved)</div><div class="v" style="font-size:1rem">{'unclear': 2, 'his_reason': 1}</div></div>
 </div>
 <div class="note">
-<strong>Method (short):</strong> Only explicit forward claims. Stated numbers score the headline. Likelihood words mapped to fixed inferred probabilities for a separate Brier. Unscorable could/might and deadline-free vibes stay in the table but are excluded from Brier denominators. Consensus used only when a dated number at claim time was found. Calibration by domain is not meaningful while n_resolved &lt; 8. Daily intake 14 Oct 2026: extracted pending X net-zero article (pl-080–pl-083), Part Two Banking Swadeshi (pl-084 unscorable), resolved pl-039 false (ICSG 2025 surplus not deficit &gt;500 kt). Inferred Brier now includes pl-039.
+<strong>Method (short):</strong> Only explicit forward claims. Stated numbers score the headline. Likelihood words mapped to fixed inferred probabilities for a separate Brier. Unscorable could/might and deadline-free vibes stay in the table but are excluded from Brier denominators. Consensus used only when a dated number at claim time was found (often the meteorological figure he republished). Calibration by domain is not meaningful while n_resolved &lt; 8. Substack batch added pl-046–pl-068 on 9 Oct 2026; daily intake added pl-069–pl-074 on 11 Oct 2026 pl-075 on 12 Oct 2026 pl-076–pl-079 on 13 Oct 2026, pl-080–pl-084 plus the pl-039 resolution (false) on 14 Oct 2026, and pl-085 on 15 Oct 2026. No new resolution on 15 Oct.
 </div>
 <div class="card" style="margin:16px 0">
   <div class="k">Batch 1 hash (first 45 lines, 9 Oct 2026) — Bitcoin-confirmed</div>
   <div class="hash">1b63678f1667007be75c89973a84cfecc5c491c04ff5fb13cc217885dbe24d5a</div>
-  <p class="small" style="margin:10px 0 0">OpenTimestamps proof ledger.jsonl.ots, submitted 9 Oct 2026, attested in Bitcoin block 970534.</p>
+  <p class="small" style="margin:10px 0 0">OpenTimestamps proof ledger.jsonl.ots, submitted 9 Oct 2026, now attested in Bitcoin block 970534.</p>
   <div class="k" style="margin-top:14px">Batch 2 hash (68 lines, Substack harvest, 9 Oct 2026) — Bitcoin-confirmed</div>
   <div class="hash">f2525b26b1dc6ff01b1d96c750823bd93a746e5eff3dc607d9b74a705201f0ea</div>
   <p class="small" style="margin:10px 0 0">Proof batches/ledger-2026-10-09-substack.jsonl.ots, attested in Bitcoin block 970582.</p>
@@ -62,13 +62,16 @@ tr.unscorable td:nth-child(7), tr.unresolved td:nth-child(7) { color:var(--warn)
   <div class="k" style="margin-top:14px">Batch 4 hash (75 lines, 12 Oct 2026) — Bitcoin-confirmed</div>
   <div class="hash">935466e6e87487bff4e1ec4e27b1cd34e3c7794c364f9f794f97669c9a96ef0a</div>
   <p class="small" style="margin:10px 0 0">Proof batches/ledger-2026-10-12.jsonl.ots, attested in Bitcoin block 970983.</p>
-  <div class="k" style="margin-top:14px">Batch 5 hash (79 lines, 13 Oct 2026) — Bitcoin confirmation pending</div>
+  <div class="k" style="margin-top:14px">Batch 5 hash (79 lines, 13 Oct 2026) — Bitcoin-confirmed</div>
   <div class="hash">8895e407a0cb6de4c7f01cca78185d386b748dcec78e264c546c1efd07a819d2</div>
-  <p class="small" style="margin:10px 0 0">Proof batches/ledger-2026-10-13.jsonl.ots submitted 13 Oct 2026.</p>
-  <div class="k" style="margin-top:14px">Batch 6 hash (current ledger.jsonl, 85 lines, 14 Oct 2026) — Bitcoin confirmation pending</div>
+  <p class="small" style="margin:10px 0 0">Proof batches/ledger-2026-10-13.jsonl.ots, attested in Bitcoin blocks 971142 / 971147 / 971177.</p>
+  <div class="k" style="margin-top:14px">Batch 6 hash (85 lines, 14 Oct 2026) — Bitcoin-confirmed</div>
   <div class="hash">0dc623597362a34ceb1bd44bbf9b7014c33aa571b5f5ab597dca1036d478cc3a</div>
-  <p class="small" style="margin:10px 0 0">Proof batches/ledger-2026-10-14.jsonl.ots submitted 14 Oct 2026 to the public OpenTimestamps calendars. Public repo: https://github.com/ctindale-oss/prediction-ledger.</p>
-  <p class="small">Entries: 84 · stated 4 · inferred 62 · new this batch pl-080–pl-084 + pl-039 resolution · file batches/batch-2026-10-14.json</p>
+  <p class="small" style="margin:10px 0 0">Proof batches/ledger-2026-10-14.jsonl.ots, attested in Bitcoin blocks 971303 / 971354 / 971357.</p>
+  <div class="k" style="margin-top:14px">Batch 7 hash (current ledger.jsonl, 86 lines, 15 Oct 2026) — Bitcoin confirmation pending</div>
+  <div class="hash">84345da4d13374fc67173dc8d334ede1050a1af300f90cb51372ecce7035e990</div>
+  <p class="small" style="margin:10px 0 0">Proof batches/ledger-2026-10-15.jsonl.ots submitted 15 Oct 2026 to the public OpenTimestamps calendars. Public repo: https://github.com/ctindale-oss/prediction-ledger.</p>
+  <p class="small">Entries: 85 · stated 4 · inferred 62 · new this batch pl-085 · file batches/batch-2026-10-15.json</p>
 </div>
 <h2>Claims</h2>
 <table>
@@ -158,6 +161,7 @@ tr.unscorable td:nth-child(7), tr.unresolved td:nth-child(7) { color:var(--warn)
 <tr class='open'><td>pl-082</td><td>2026-10-12</td><td>climate</td><td class='claim'>On the IPCC's own figures, the route to net zero by 2050 is implausible. The 2050 route fails as a plan. ... I reject it. I call the policy built on the 2050 date folly.</td><td>0.9</td><td>inferred</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2050-12-31</td></tr>
 <tr class='open'><td>pl-083</td><td>2026-10-12</td><td>climate</td><td class='claim'>The remaining budget for 1.5°C was 170 billion tonnes, about four years of 2025 emissions. By my count, at the 2025 rate the world spends the 170 billion tonnes around 2030, twenty years before the 2050 date.</td><td>0.9</td><td>inferred</td><td>open</td><td>unresolved</td><td>unresolved</td><td>2031-12-31</td></tr>
 <tr class='unscorable'><td>pl-084</td><td>2026-10-13</td><td>geopolitics</td><td class='claim'>If they do not change, India will grow old before it grows strong, a rich treasury guarding a hollow nation.</td><td></td><td></td><td>unscorable</td><td>n/a</td><td>n/a</td><td></td></tr>
+<tr class='unscorable'><td>pl-085</td><td>2026-10-14</td><td>macro</td><td class='claim'>Every time has happened before nobody went broke. We just had financial repression that directed Domestic savings into the debt to solve the lack of demand . The country won’t go broke. It’ll just create repression so th</td><td></td><td></td><td>unscorable</td><td>n/a</td><td>n/a</td><td></td></tr>
 
 </tbody>
 </table>
