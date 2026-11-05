@@ -1,0 +1,22 @@
+{
+  "created_at": "2026-10-22T08:03:05+11:00",
+  "file": "ledger.jsonl",
+  "sha256": "f2f01f11dc370f9f6f2723668a0a17b81a3135da102f04a9fd4ef327e4cb6782",
+  "entry_count": 1,
+  "total_lines": 105,
+  "active_entries": 104,
+  "prior_sha256": "f65fadca3adcf9d879b4dbd3f25fea716f8e09912acc7039cb809d37dc1182da",
+  "new_ids": [
+    "pl-104"
+  ],
+  "resolutions": [],
+  "still_unresolved_due": [
+    "pl-012",
+    "pl-058"
+  ],
+  "note": "Daily intake 22 Oct 2026. Appended only; first 104 lines still hash to prior_sha256. Added pl-104 from his 20 Oct 2026 23:13 UTC X post saying a new essay on US gold-backed bonds is due out in the next few days (inferred 0.90, resolves 2026-10-28). Other X replies since 21 Oct carry no forecast; no new Substack post or interview. No call fell due; pl-012 and pl-058 remain unresolved. Proof over batches/ledger-2026-10-22.jsonl (= concat github-parts/ledger-01..22.jsonl).",
+  "ots_submitted_at": "2026-10-22T08:03:10+11:00",
+  "ots_file": "batches/ledger-2026-10-22.jsonl.ots (text copy: .ots.b64)",
+  "bitcoin_attestation": "pending",
+  "earlier_proofs_upgraded": {}
+}

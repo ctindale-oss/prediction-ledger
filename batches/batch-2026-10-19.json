@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-10-19T08:05:48+11:00",
+  "file": "ledger.jsonl",
+  "sha256": "ad85f1438a6e870028bac5a807053516fba19bba52ebe76f468636c2f5791005",
+  "entry_count": 2,
+  "total_lines": 94,
+  "active_entries": 93,
+  "prior_sha256": "359766d5d1193e39022c1ca4944275cfa39ce0df34580199c6eca37cf26d86e1",
+  "new_ids": [
+    "pl-092",
+    "pl-093"
+  ],
+  "resolutions": [],
+  "still_unresolved_due": [
+    "pl-012",
+    "pl-058"
+  ],
+  "note": "Daily intake 19 Oct 2026. Appended only; first 92 lines still hash to prior_sha256. Added pl-092 and pl-093, both unscorable, from the Substack essay 'Same Rules, Different Ruins' (18 Oct 2026; subscriber-only, wording taken from the pre-publication build). No call fell due. Proof over batches/ledger-2026-10-19.jsonl (= concat github-parts/ledger-01..20.jsonl).",
+  "ots_submitted_at": "2026-10-19T08:05:48+11:00",
+  "ots_file": "batches/ledger-2026-10-19.jsonl.ots (text copy: .ots.b64)",
+  "bitcoin_attestation": "pending",
+  "earlier_proofs_upgraded": {
+    "batches/ledger-2026-10-18.jsonl.ots (batch 8, 3597...)": "Bitcoin blocks 971910 / 971914 / 971954"
+  }
+}

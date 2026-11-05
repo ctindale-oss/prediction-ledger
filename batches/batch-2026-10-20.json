@@ -1,0 +1,33 @@
+{
+  "created_at": "2026-10-20T08:28:26+11:00",
+  "file": "ledger.jsonl",
+  "sha256": "f65fadca3adcf9d879b4dbd3f25fea716f8e09912acc7039cb809d37dc1182da",
+  "entry_count": 10,
+  "total_lines": 104,
+  "active_entries": 103,
+  "prior_sha256": "ad85f1438a6e870028bac5a807053516fba19bba52ebe76f468636c2f5791005",
+  "new_ids": [
+    "pl-094",
+    "pl-095",
+    "pl-096",
+    "pl-097",
+    "pl-098",
+    "pl-099",
+    "pl-100",
+    "pl-101",
+    "pl-102",
+    "pl-103"
+  ],
+  "resolutions": [],
+  "still_unresolved_due": [
+    "pl-012",
+    "pl-058"
+  ],
+  "note": "Daily intake 20 Oct 2026. Appended only; first 94 lines still hash to prior_sha256. Added pl-094 to pl-103 from the Bitcoin Magazine Podcast interview 'Financial Repression in the Age of Superintelligence' (published 18 Oct 2026 13:00 UTC), transcribed locally from the episode audio. pl-099 is inferred (0.70, due 2030-03-31); the other nine are unscorable as worded. Nationalisation remark restating pl-088 not logged separately. No call fell due. Proof over batches/ledger-2026-10-20.jsonl (= concat github-parts/ledger-01..21.jsonl).",
+  "ots_submitted_at": "2026-10-20T08:28:39+11:00",
+  "ots_file": "batches/ledger-2026-10-20.jsonl.ots (text copy: .ots.b64)",
+  "bitcoin_attestation": "pending",
+  "earlier_proofs_upgraded": {
+    "batches/ledger-2026-10-19.jsonl.ots (batch 9, ad85...)": "Bitcoin block 972057"
+  }
+}

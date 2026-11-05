@@ -1,0 +1,29 @@
+{
+  "created_at": "2026-10-18T08:04:51+11:00",
+  "file": "ledger.jsonl",
+  "sha256": "359766d5d1193e39022c1ca4944275cfa39ce0df34580199c6eca37cf26d86e1",
+  "entry_count": 6,
+  "total_lines": 92,
+  "active_entries": 91,
+  "prior_sha256": "84345da4d13374fc67173dc8d334ede1050a1af300f90cb51372ecce7035e990",
+  "new_ids": [
+    "pl-086",
+    "pl-087",
+    "pl-088",
+    "pl-089",
+    "pl-090",
+    "pl-091"
+  ],
+  "resolutions": [],
+  "still_unresolved_due": [
+    "pl-012",
+    "pl-058"
+  ],
+  "note": "Daily intake 18 Oct 2026. Appended only; first 86 lines still hash to prior_sha256. Added pl-086 to pl-090 (unscorable calls backfilled from the 30 Sep 2026 Financial Sense interview 'Bessent Is the House, Gold Is the Tell', missed by earlier runs) and pl-091 (unscorable X reply on enterprise AI inertia, 18 Oct). No call fell due. Proof over batches/ledger-2026-10-18.jsonl (= concat github-parts/ledger-01..19.jsonl).",
+  "ots_submitted_at": "2026-10-18T08:04:51+11:00",
+  "ots_file": "batches/ledger-2026-10-18.jsonl.ots (text copy: .ots.b64)",
+  "bitcoin_attestation": "pending",
+  "earlier_proofs_upgraded": {
+    "batches/ledger-2026-10-15.jsonl.ots (batch 7, 8434...)": "Bitcoin blocks 971468 / 971474 / 971480 / 971484"
+  }
+}
