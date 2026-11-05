@@ -1,0 +1,29 @@
+{
+  "created_at": "2026-11-06T08:03:51+11:00",
+  "file": "ledger.jsonl",
+  "sha256": "3de6d5513c7960431a7d0ebb38d006a25c898947437a2efabbf3a53b7f5a0c00",
+  "entry_count": 7,
+  "total_lines": 132,
+  "active_entries": 128,
+  "prior_sha256": "82e263fe91be7f414c3ffee0fac5857b91385c810988dd7446ed08031b7ccdf3",
+  "new_ids": [
+    "pl-122",
+    "pl-123",
+    "pl-124",
+    "pl-125",
+    "pl-126",
+    "pl-127",
+    "pl-128"
+  ],
+  "resolutions": [],
+  "still_unresolved_due": [
+    "pl-012",
+    "pl-058"
+  ],
+  "note": "Daily intake 6 Nov 2026. Appended only; first 125 lines still hash to prior_sha256. Added pl-122..pl-128 from two 5 Nov Substack essays: 'Treasury’s Advisers Said Bigger Bond Auctions Are Coming. Treasury Chose Buybacks.' (pl-122 his four dated tests for 3 Feb 2027, direction-scored, no probability; pl-123 his kill conditions) and 'The Unconstitutional De-industrialisation of America by a Foreign Committee' (pl-124 US Harvard Atlas rank will not recover from 20th while Basel weights stay, inferred 0.90, 5 Nov 2029; pl-125 no Basel sovereign weight change proposed, inferred 0.90; pl-126 gold certificates change only if Congress amends 31 USC 5117(b), inferred 0.90; pl-127 tradable investment rises first if dollar falls, unscorable; pl-128 his falsification test). No resolutions due. Proof over batches/ledger-2026-11-06.jsonl (= concat github-parts/ledger-01..30.jsonl).",
+  "ots_file": "batches/ledger-2026-11-06.jsonl.ots (text copy: .ots.b64)",
+  "bitcoin_attestation": "pending",
+  "earlier_proofs_upgraded": {
+    "batches/ledger-2026-11-05.jsonl.ots": "Bitcoin blocks 974585/974586/974600/974617 (upgraded 6 Nov 2026)"
+  }
+}
