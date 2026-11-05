@@ -1,0 +1,24 @@
+{
+  "created_at": "2026-11-04T07:59:39+11:00",
+  "file": "ledger.jsonl",
+  "sha256": "1faffe032d0b26e2a7a16aa4b4f016eab65dc3f8c7a3402fbca964fdf576cd48",
+  "entry_count": 2,
+  "total_lines": 116,
+  "active_entries": 112,
+  "prior_sha256": "98572c1a06306cb26ccd03a7bb7e8b622a8455cf4ab8ab7940b61d443aca9e35",
+  "new_ids": [
+    "pl-111",
+    "pl-112"
+  ],
+  "resolutions": [],
+  "still_unresolved_due": [
+    "pl-012",
+    "pl-058"
+  ],
+  "note": "Daily intake 4 Nov 2026. Appended only; first 114 lines still hash to prior_sha256. Added pl-111 (conditional: without removal machines at pathway scale, net zero by 2050 is a fantasy and warming that passes 1.5C stays above it; 3 Nov Substack decarbonisation essay) and pl-112 (X reply 3 Nov: geopolitical framework gets more balkanised going forward; repression and inflation), both inferred 0.90, unscorable. No resolutions due. Proof over batches/ledger-2026-11-04.jsonl (= concat github-parts/ledger-01..28.jsonl).",
+  "ots_file": "batches/ledger-2026-11-04.jsonl.ots (text copy: .ots.b64)",
+  "bitcoin_attestation": "pending",
+  "earlier_proofs_upgraded": {
+    "ledger-2026-11-03.jsonl.ots": "Bitcoin blocks 974302/974322/974343"
+  }
+}

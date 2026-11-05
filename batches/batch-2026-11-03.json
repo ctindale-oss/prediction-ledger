@@ -1,0 +1,31 @@
+{
+  "created_at": "2026-11-03T08:02:59+11:00",
+  "file": "ledger.jsonl",
+  "sha256": "98572c1a06306cb26ccd03a7bb7e8b622a8455cf4ab8ab7940b61d443aca9e35",
+  "entry_count": 3,
+  "total_lines": 114,
+  "active_entries": 110,
+  "prior_sha256": "8090938c95b1962d0e1595bf442f54c68f4fb1dc4ac4884f22d4bbdff059e7c4",
+  "new_ids": [
+    "pl-109",
+    "pl-110"
+  ],
+  "resolutions": [
+    {
+      "id": "pl-104",
+      "status": "resolved_false",
+      "outcome": 0,
+      "note": "late-publication note only; outcome unchanged"
+    }
+  ],
+  "still_unresolved_due": [
+    "pl-012",
+    "pl-058"
+  ],
+  "note": "Daily intake 3 Nov 2026. Appended only; first 111 lines still hash to prior_sha256. pl-104 late-publication note (essay out 2 Nov 23:04 AEDT, 5 days after deadline; stays NO). Added pl-109 (US preparing to shrink its debt by revaluing gold and holding savers' returns below inflation) and pl-110 (Treasury will issue the gold-convertible bond), both from the 2 Nov essay, inferred 0.90, undated so unscorable. Proof over batches/ledger-2026-11-03.jsonl (= concat github-parts/ledger-01..27.jsonl).",
+  "ots_file": "batches/ledger-2026-11-03.jsonl.ots (text copy: .ots.b64)",
+  "bitcoin_attestation": "pending",
+  "earlier_proofs_upgraded": {
+    "ledger-2026-10-31.jsonl.ots": "Bitcoin blocks 973878/973901"
+  }
+}
