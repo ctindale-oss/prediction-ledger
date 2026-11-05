@@ -241,3 +241,85 @@ Not logged: NALCO administrators' expectation on gallium (their call, not his); 
 
 ### Resolutions
 None due. Earliest open resolution date is 2026-11-30 (pl-071), then 2026-12-31. Scores unchanged: stated Brier 0.0625 (n=1), inferred Brier 0.01 (n=1). Totals: 79 lines, 49 open, 2 resolved true, 0 false, 3 unresolved, 25 unscorable.
+
+## Daily intake — 18 Oct 2026 (Australia/Sydney)
+
+Appended only. Prior SHA-256 `84345da4d13374fc67173dc8d334ede1050a1af300f90cb51372ecce7035e990`. New SHA-256 `359766d5d1193e39022c1ca4944275cfa39ce0df34580199c6eca37cf26d86e1` (92 lines). Batch file `batches/batch-2026-10-18.json`. OpenTimestamps submitted 18 Oct 2026 8:04am Sydney; Bitcoin attestation pending. Batch 7 proof (8434..., 86 lines) is now Bitcoin-confirmed (blocks 971468/971474/971480/971484).
+
+### Searched
+- Substack RSS: no new essay since Part Two (13 Oct 2026).
+- X @ctindale posts and replies, 17 Oct 2026 8:01am to 18 Oct 8:02am Sydney (14 posts).
+- Interviews: web search found the Financial Sense Newshour interview with Jim Puplava, "Craig Tindale: Bessent Is the House, Gold Is the Tell" (published 30 Sep 2026), not previously logged. Transcript read in full from the page. Two August podcasts (Kontrarian Korner #144, 19 Aug; NatCon Australia E136, 25 Aug) were also found and are not yet logged; they have summaries only on the open pages, no transcript read yet.
+
+### New lines (pl-086 to pl-091)
+- pl-086 (interview): "So I, I see the whole regime changing in the next 12 months. ... It's like Bretton Woods 3 or something like that." Window stated (to 30 Sep 2027) but no measurable event; unscorable as written, as pl-073. Scorable if Craig names the test.
+- pl-087 (interview): "short term they can do it three, six, nine months before ... the bond vigilantes ... intervening". Unscorable (undefined event).
+- pl-088 (interview): "a lot of these tech stocks will be nationalized eventually ... at much lower prices, and the holders will take the hit." No deadline; unscorable.
+- pl-089 (interview): Australia, "we're still going to raise rates into this, into this storm." No window; unscorable.
+- pl-090 (interview): central banks' "cult of financialization, cult that's just about to end." Unscorable.
+- pl-091 (X, 18 Oct): "it'll take years to move that inertia" on enterprise AI adoption. Unscorable.
+
+Not logged: X reply on Basel II/III risk weights ("every single country that adopted this formula ... had their industrial activity fall by between 50 and 75%"), a claim about the past, not a forecast; X reply recalling 19 Oct 1987 ("it's much worse this time the bankers have financialized the whole economy"), a description of present conditions with no forecast of what or when; replies on AI and blockchain adoption in banks, X visibility, BOM data, a Wright brothers parody and social engineering, none a forecast.
+
+### Resolutions
+None newly due. pl-012 and pl-058 remain past due and unresolved. Earliest open resolution date is 2026-11-30 (pl-071). Scores unchanged.
+
+## Daily intake — 20 Oct 2026 (Australia/Sydney)
+
+Appended only. Prior SHA-256 `ad85f1438a6e870028bac5a807053516fba19bba52ebe76f468636c2f5791005`. New SHA-256 `f65fadca3adcf9d879b4dbd3f25fea716f8e09912acc7039cb809d37dc1182da` (104 lines). Batch file `batches/batch-2026-10-20.json`. OpenTimestamps submitted 20 Oct 2026 8:28am Sydney; Bitcoin attestation pending. Batch 9 proof (ad85..., 94 lines) is now Bitcoin-confirmed (block 972057).
+
+### Searched
+- Substack: no new essay since 'Same Rules, Different Ruins' (18 Oct 2026).
+- X @ctindale posts since the last run: no forecasts.
+- Interviews: Bitcoin Magazine Podcast, 'Financial Repression in the Age of Superintelligence' (host Spencer Nichols, published 18 Oct 2026 13:00 UTC, 43 min; YouTube G1Q4ocdwMlc). No human transcript; the Exa page shows only the first three turns, and YouTube captions were blocked (HTTP 429, then bot-check). The episode MP3 was transcribed on the box with faster-whisper (small.en for the full episode, medium.en on the 12 passages quoted); every quoted fragment was checked by script as an exact substring of one of those transcripts (work/src/bm-2026-10-18.*).
+
+### New lines (pl-094 to pl-103)
+- pl-094: no default by the US, Australia or Japan; financial repression paid by "domestic players". Unscorable (no date); restates pl-085 with Australia and Japan named.
+- pl-095: "a new Treasury-fed accord to manage the yield code ... You'll see this happen in other countries as well." Unscorable (no date or country); overlaps pl-072.
+- pl-096: assets stored "next to targets, you're going to lose yours as well"; "heading from the middle game to the end game". Unscorable.
+- pl-097: "empires just trade within the empires ... that's what's going to happen". Unscorable.
+- pl-098: China's currency has "got to be reciprocal with gold" to become a trading currency. Conditional, unscorable.
+- pl-099: "America's next leader is likely to be exactly the same." Inferred 0.70 ('likely'). Test fixed by the ledger keeper and queued in inferred-to-confirm.csv: TRUE if the 2029 US effective tariff rate (gross customs duties ÷ goods imports) is 5.0% or more (2.4% in 2024, 7.7% in 2025); due 31 Mar 2030.
+- pl-100: Fourth Turning; the younger generation "are gonna have to rebuild"; "it's going to be crazy". Unscorable.
+- pl-101: AI "is not pets.com"; "the first thing it replaces is the coders". Unscorable.
+- pl-102: gold, copper and silver "gonna be contested"; silver and copper exchange stock-outs "might"/"may" happen. Unscorable.
+- pl-103: his re-run climate models: "what we end up in is the younger driest [Younger Dryas] period ... and everything gets cold". Unscorable.
+
+Not logged: "the government will nationalize it to a certain extent" (restates pl-088, no new date or number); cyborgs in 10–15 years ("I wouldn't make any predictions about it"); bitcoin ("I can't predict that"); IonQ on AWS (relayed company news); repo window, buyback size and "free markets can stop overnight" (statements of what is possible); rare-earth companies "about to start producing" (others' plans, no names); diesel (rhetorical conditional).
+
+### Resolutions
+None newly due. pl-012 and pl-058 remain past due and unresolved. Earliest open resolution date is 2026-11-30 (pl-071).
+
+## Daily intake — 22 Oct 2026 (Australia/Sydney)
+
+Appended only. Prior SHA-256 `f65fadca3adcf9d879b4dbd3f25fea716f8e09912acc7039cb809d37dc1182da` (104 lines, now Bitcoin-confirmed in blocks 972217 / 972237). New SHA-256 `f2f01f11dc370f9f6f2723668a0a17b81a3135da102f04a9fd4ef327e4cb6782` (105 lines). Batch file `batches/batch-2026-10-22.json`. OpenTimestamps submitted 22 Oct 2026 8:03am Sydney; Bitcoin attestation pending.
+
+### Searched
+- Substack archive API: no new post (latest still 18 Oct 2026, "Same Rules, Different Ruins").
+- X posts by @ctindale since the last run: five posts (20 Oct 23:04 UTC to 21 Oct 06:40 UTC).
+- Web search for new interviews: none beyond the already-logged 18 Oct 2026 Bitcoin Magazine podcast.
+
+### New
+- pl-104 (X, 20 Oct 2026 23:13 UTC): "Folks should keep an eye out for my new essay on how US transitions to gold back bonds , revaluing its reserves and resetting UST & US debt - due out in the next few days". Inferred 0.90 ('due out' read as 'will'); resolves 2026-10-28 against his Substack archive. Queued in inferred-to-confirm.csv.
+
+Not logged: replies on financialisation (state asset sales for income streams), on late-cycle housing versus early-cycle tradeables lending risk, and two replies on the Israel–Gaza exchange with @Frances_Coppola; none is a dated, checkable forecast.
+
+### Resolutions
+None due. pl-012 and pl-058 remain unresolved.
+
+## Daily intake — 4 Nov 2026 (Australia/Sydney)
+
+Appended only. Prior SHA-256 `98572c1a06306cb26ccd03a7bb7e8b622a8455cf4ab8ab7940b61d443aca9e35` (114 lines, now Bitcoin-confirmed in blocks 974302 / 974322 / 974343). New SHA-256 `1faffe032d0b26e2a7a16aa4b4f016eab65dc3f8c7a3402fbca964fdf576cd48` (116 lines, 112 active entries). Proof batches/ledger-2026-11-04.jsonl.ots pending.
+
+### Searched
+- Substack RSS: one new post, 'Decarbonisation: The Fantasy upon which Net Zero is built.' (3 Nov 2026 06:00 UTC), a republication of the 12 Oct X article already harvested as pl-080 to pl-083.
+- X posts by @ctindale since the last run: eleven posts (3 Nov 01:00 UTC to 20:30 UTC).
+
+### New
+- pl-111 (Substack): "If the removal machines fail to arrive at the scale the pathways assume, net zero by 2050 is a fantasy. Warming that passes 1.5°C stays above it." Conditional, undated; unscorable.
+- pl-112 (X reply to @DawesPoints): "the geopolitical civilisational framework gets more balkanised going forward ... That's why I keep landing on repression and inflation". Undated; unscorable.
+
+Not logged: "on copper alone, the route is implausible" (restates pl-082); X reply to @Mabeytweet that the removal machines "simply don't and can't exist" (restates pl-080); the Zervos energy-risk/bond-yield reply ("I don't think we have the answer to that yet"); Treasury buyback poll thread; Greens/Hutton and Greens/Gaza posts.
+
+### Resolutions
+None due. pl-012 and pl-058 remain past due and unresolved.

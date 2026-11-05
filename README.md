@@ -30,3 +30,18 @@ Update 13 Oct 2026: the batch 4 proof (75 lines, `935466e6...`) is Bitcoin-confi
 - SHA-256(ledger.jsonl) = `84345da4d13374fc67173dc8d334ede1050a1af300f90cb51372ecce7035e990` (86 lines; 85 active after supersede)
 - New: pl-085 (unscorable X reply to Ray Dalio). No call fell due.
 - Proof: batches/ledger-2026-10-15.jsonl.ots (Bitcoin pending). Prior batch 0dc6… now Bitcoin-confirmed (blocks 971303/971354/971357).
+
+## Daily intake 18 Oct 2026
+- SHA-256(ledger.jsonl) = `359766d5d1193e39022c1ca4944275cfa39ce0df34580199c6eca37cf26d86e1` (92 lines; 91 active after supersede)
+- New: pl-086–pl-090 backfilled from the 30 Sep 2026 Financial Sense interview; pl-091 from an 18 Oct X reply. All unscorable as worded. No resolutions.
+- Proof: batches/ledger-2026-10-18.jsonl.ots (Bitcoin pending). Prior batch 8434… now Bitcoin-confirmed (blocks 971468–971484).
+
+## Daily intake 19 Oct 2026
+- SHA-256(ledger.jsonl) = `ad85f1438a6e870028bac5a807053516fba19bba52ebe76f468636c2f5791005` (94 lines; 93 active after supersede)
+- New: pl-092–pl-093 from the 18 Oct 2026 Substack essay 'Same Rules, Different Ruins' (Australian housing-credit cliff; write-down if reweighting is left too late). Both unscorable as worded. No resolutions.
+- Proof: batches/ledger-2026-10-19.jsonl.ots (Bitcoin pending). Prior batch 3597… now Bitcoin-confirmed (blocks 971910/971914/971954).
+
+## Daily intake 20 Oct 2026
+- SHA-256(ledger.jsonl) = `f65fadca3adcf9d879b4dbd3f25fea716f8e09912acc7039cb809d37dc1182da` (104 lines; 103 active after supersede)
+- New: pl-094–pl-103 from the 18 Oct 2026 Bitcoin Magazine Podcast interview 'Financial Repression in the Age of Superintelligence' (host Spencer Nichols), transcribed locally from the episode audio. pl-099 ("America's next leader is likely to be exactly the same") is inferred 0.70, due 31 Mar 2030; the other nine are unscorable as worded. No resolutions.
+- Proof: batches/ledger-2026-10-20.jsonl.ots (Bitcoin pending). Prior batch ad85… now Bitcoin-confirmed (block 972057).
