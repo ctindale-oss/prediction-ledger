@@ -1,0 +1,22 @@
+{
+  "created_at": "2026-10-24T07:58:26+11:00",
+  "file": "ledger.jsonl",
+  "sha256": "e24c6a2dc033344046e7072cc344ed7668f4e2852356641a15ff8d94b3dbd151",
+  "entry_count": 1,
+  "total_lines": 106,
+  "active_entries": 105,
+  "prior_sha256": "f2f01f11dc370f9f6f2723668a0a17b81a3135da102f04a9fd4ef327e4cb6782",
+  "new_ids": [
+    "pl-105"
+  ],
+  "resolutions": [],
+  "still_unresolved_due": [
+    "pl-012",
+    "pl-058"
+  ],
+  "note": "Daily intake 24 Oct 2026. Appended only; first 105 lines still hash to prior_sha256. Added pl-105 from his 23 Oct 2026 08:45 UTC X reply saying a longish essay framed on Dalio's problem statements is coming out in a few days (inferred 0.90, resolves 2026-10-30). No new Substack post or interview since 18 Oct. No call fell due; pl-012 and pl-058 remain unresolved; pl-104 open until 28 Oct. Proof over batches/ledger-2026-10-24.jsonl (= concat github-parts/ledger-01..23.jsonl).",
+  "ots_submitted_at": "2026-10-24T07:58:38+11:00",
+  "ots_file": "batches/ledger-2026-10-24.jsonl.ots (text copy: .ots.b64)",
+  "bitcoin_attestation": "pending",
+  "earlier_proofs_upgraded": {}
+}

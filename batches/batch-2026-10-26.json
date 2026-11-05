@@ -1,0 +1,22 @@
+{
+  "created_at": "2026-10-26T07:57:46+11:00",
+  "file": "ledger.jsonl",
+  "sha256": "b9f70328a6e8aa2cca0d5fa729326bad082d52640a1b38a93069cb6613b4d5c1",
+  "entry_count": 1,
+  "total_lines": 107,
+  "active_entries": 106,
+  "prior_sha256": "e24c6a2dc033344046e7072cc344ed7668f4e2852356641a15ff8d94b3dbd151",
+  "new_ids": [
+    "pl-106"
+  ],
+  "resolutions": [],
+  "still_unresolved_due": [
+    "pl-012",
+    "pl-058"
+  ],
+  "note": "Daily intake 26 Oct 2026. Appended only; first 106 lines still hash to prior_sha256. Added pl-106 from his 25 Oct 2026 17:02 UTC X reply saying a series of 1m words or more on a single subject, over about 1,000 pages/posts, is coming out early next year (inferred 0.90, resolves 2027-04-30). No new Substack post since 18 Oct and no new interview. No call fell due; pl-012 and pl-058 remain unresolved; pl-104 open until 28 Oct, pl-105 until 30 Oct. Proof over batches/ledger-2026-10-26.jsonl (= concat github-parts/ledger-01..24.jsonl).",
+  "ots_submitted_at": null,
+  "ots_file": "batches/ledger-2026-10-26.jsonl.ots (text copy: .ots.b64)",
+  "bitcoin_attestation": "pending",
+  "earlier_proofs_upgraded": {}
+}
