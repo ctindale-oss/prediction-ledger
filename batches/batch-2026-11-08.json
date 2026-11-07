@@ -1,0 +1,29 @@
+{
+  "created_at": "2026-11-08T07:58:02+11:00",
+  "file": "ledger.jsonl",
+  "sha256": "247631122c6a82dfac434b8d1ee9043b0f1c93019f91eb219d04f159c6e86dd5",
+  "entry_count": 7,
+  "total_lines": 139,
+  "active_entries": 135,
+  "prior_sha256": "3de6d5513c7960431a7d0ebb38d006a25c898947437a2efabbf3a53b7f5a0c00",
+  "new_ids": [
+    "pl-129",
+    "pl-130",
+    "pl-131",
+    "pl-132",
+    "pl-133",
+    "pl-134",
+    "pl-135"
+  ],
+  "resolutions": [],
+  "still_unresolved_due": [
+    "pl-012",
+    "pl-058"
+  ],
+  "note": "Daily intake 8 Nov 2026. Appended only; first 132 lines still hash to prior_sha256. No new Substack or X forecast since 7 Nov and nothing came due. Backfilled pl-129..pl-134 from the In Gold We Trust report 2026 debate with Luke Gromen (recorded 13 Apr 2026; gold revaluation 'probably the most likely it's been in the last 40 years', dollar must be anchored to a commodity mix, transformer lead times to blow out to six or seven years, US magnesium 10 years to fix, capital 'rotation from hell' out of AI data centres, conditional copper cut-off at end of 2026) and pl-135 from the 22 Oct 2026 Investing News Network interview ('a very significant change in US treasuries, in gold, in international debt, in the value of the dollar'). All unscorable as worded. Proof over batches/ledger-2026-11-08.jsonl (= concat github-parts/ledger-01..31.jsonl).",
+  "ots_file": "batches/ledger-2026-11-08.jsonl.ots (text copy: .ots.b64)",
+  "bitcoin_attestation": "pending",
+  "earlier_proofs_upgraded": {
+    "batches/ledger-2026-11-06.jsonl.ots": "Bitcoin blocks 974714/974715/974752/974757 (upgraded 7 Nov 2026)"
+  }
+}
