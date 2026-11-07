@@ -323,3 +323,26 @@ Not logged: "on copper alone, the route is implausible" (restates pl-082); X rep
 
 ### Resolutions
 None due. pl-012 and pl-058 remain past due and unresolved.
+
+## Daily intake — 8 Nov 2026 (Australia/Sydney)
+
+Appended only. Prior SHA-256 `3de6d5513c7960431a7d0ebb38d006a25c898947437a2efabbf3a53b7f5a0c00`. New SHA-256 `247631122c6a82dfac434b8d1ee9043b0f1c93019f91eb219d04f159c6e86dd5` (139 lines). Batch file `batches/batch-2026-11-08.json`. OpenTimestamps submitted 8 Nov 2026 about 8am Sydney; Bitcoin attestation pending. Batch 19 proof (3de6..., 132 lines) is Bitcoin-confirmed (blocks 974714/974715/974752/974757).
+
+### Searched
+- Substack RSS: no new essay since 5 Nov 2026.
+- X @ctindale since 7 Nov 8am Sydney: one two-post Greens thread (Penny Allman-Payne letter, links the existing essay); no forecast.
+- Interviews: web search found two interviews earlier intakes missed: the In Gold We Trust report 2026 debate with Luke Gromen (recorded 13 Apr 2026; edited transcript with speaker labels on ingoldwetrust.report, read in full for Craig's turns) and the Investing News Network video interview with Charlotte McLeod (22 Oct 2026; only the two quotes printed on the article page were read, video not transcribed).
+
+### New lines (pl-129 to pl-135), all unscorable as worded
+- pl-129 (IGWT): gold revaluation, "probably the most likely it's been in the last 40 years"; read as 0.70, no deadline.
+- pl-130 (IGWT): "in order to save the USD, they have to anchor it on some kind of commodity mix"; USD 25,000 gold "isn't hard to imagine" (a possibility, not mapped).
+- pl-131 (IGWT): Siemens transformer lead time "that'll blow out to six or seven years"; no date or agreed series.
+- pl-132 (IGWT): US magnesium "going to take the US 10 years to fix"; suggested check 13 Apr 2036 via USGS.
+- pl-133 (IGWT): "a rotation from hell" out of AI data-centre speculation; no deadline.
+- pl-134 (IGWT): conditional copper cut-off "at the end of the year"; context check 31 Dec 2026, not scored.
+- pl-135 (INN): "a very significant change in US treasuries, in gold, in international debt, in the value of the dollar"; read as 0.70, no deadline.
+
+Not logged: the Nvidia 250,000 t copper figure for 2028 (a projection he cites); "That “something else” could take the form of war" (a could, kept in pl-132's text).
+
+### Resolutions
+None due. Next dated open call pl-071 on 30 Nov 2026. Totals: 139 lines, 135 active, 65 open, 2 resolved true, 3 false, 2 unresolved, 64 unscorable.
