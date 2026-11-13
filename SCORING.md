@@ -346,3 +346,24 @@ Not logged: the Nvidia 250,000 t copper figure for 2028 (a projection he cites);
 
 ### Resolutions
 None due. Next dated open call pl-071 on 30 Nov 2026. Totals: 139 lines, 135 active, 65 open, 2 resolved true, 3 false, 2 unresolved, 64 unscorable.
+
+
+## Paid-section reread — 11 Nov 2026 afternoon (Australia/Sydney)
+
+Appended only. Prior SHA-256 `3a4ca4a6d491b0f33ba1d18ae7e2573e6d6a90f8cf34f1b191df72583b3177f7` (141 lines, morning intake). New SHA-256 `f709038b7957b506e75514deb96eff38109c70cff12d6f3161b50d796d77586a` (147 lines). Batch file `batches/batch-2026-11-11-paid.json`. OpenTimestamps submitted 11 Nov 2026 about 9:48am Sydney; Bitcoin attestation pending. Morning 11 Nov proof (3a4ca4a6…) is Bitcoin-confirmed (block 975346). Batch 20 proof (24763112…, 139 lines, 8 Nov) is Bitcoin-confirmed (blocks 974986/974987/975023/975026).
+
+### Why the morning intake missed these
+The public Substack page and the X Article both stop at the paywall sentence ("The administration has already used the Commander-in-Chief Clause on military money, but to move money rather than hold it back."). The full published text was read in the afternoon from the essay's published file.
+
+### New lines (pl-138 to pl-143)
+- pl-138: "Late in fiscal 2027, a third is likely unless Congress has passed a binding restriction that closes the route. Foreign aid remains the likeliest target." Inferred 0.70 from 'likely'; resolves 31 Oct 2027; queued. If Congress closes the route and no third request is sent, not applicable (not a miss).
+- pl-139: "The likeliest pattern is repeated withholding, appeals, rewritten orders and negotiated partial funding deals." Inferred 0.70; resolves 31 Oct 2027; queued.
+- pl-140: "The likeliest outcome is a negotiated partial deal, reached after programs the White House opposes have already lost staff, recipients and a year of work." Inferred 0.70; resolves 31 Oct 2027; queued.
+- pl-141: officials "will stop saying ‘this is illegal’…"; inferred 0.90; unscorable (no date or measure).
+- pl-142: "Least likely is refusing to obey a final, binding court order." Ranking, no number assigned; unscorable.
+- pl-143: self-critique — what breaks the advantage of delay (named-account restriction with a release date and a late-rescission ban, or a binding court order before the money expires).
+
+The essay's closing line was already logged as pl-137 from the LinkedIn summary.
+
+### Resolutions
+None due. pl-012 and pl-058 remain past due and unresolved.
