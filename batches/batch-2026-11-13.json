@@ -1,0 +1,20 @@
+{
+  "created_at": "2026-11-13T07:58:38+11:00",
+  "file": "ledger.jsonl",
+  "sha256": "974f5ba4a18c9ff7b8303124c24e8b8a31ce60bc73ff96201c09503f576873e3",
+  "entry_count": 1,
+  "total_lines": 151,
+  "active_entries": 147,
+  "prior_sha256": "f256c1f6cafdafd0f6288547bf9d943f9b73a02d47c33eb886dea4363f9ef729",
+  "new_ids": [
+    "pl-147"
+  ],
+  "resolutions": [],
+  "still_unresolved_due": [
+    "pl-012",
+    "pl-058"
+  ],
+  "note": "13 Nov 2026 daily intake. New Substack post 'Cited in the Financial Times' (11 Nov UTC) carries no forecast. Added one unscorable call from an X reply of 11 Nov UTC: pl-147 (US taxpayers 'will never get' a gold audit). Nothing due. Appended only; first 150 lines still hash to prior_sha256. Proof over batches/ledger-2026-11-13.jsonl (= concat github-parts/ledger-01..35.jsonl).",
+  "ots_file": "batches/ledger-2026-11-13.jsonl.ots (text copy: .ots.b64)",
+  "bitcoin_attestation": "pending"
+}

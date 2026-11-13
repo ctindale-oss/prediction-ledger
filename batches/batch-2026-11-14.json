@@ -1,0 +1,23 @@
+{
+  "created_at": "2026-11-14T08:05:33+11:00",
+  "file": "ledger.jsonl",
+  "sha256": "5a78e52a51309a5d249447855b1dee3dc5c1718f02a8337a288bea287cf9c402",
+  "entry_count": 4,
+  "total_lines": 155,
+  "active_entries": 151,
+  "prior_sha256": "974f5ba4a18c9ff7b8303124c24e8b8a31ce60bc73ff96201c09503f576873e3",
+  "new_ids": [
+    "pl-148",
+    "pl-149",
+    "pl-150",
+    "pl-151"
+  ],
+  "resolutions": [],
+  "still_unresolved_due": [
+    "pl-012",
+    "pl-058"
+  ],
+  "note": "14 Nov 2026 daily intake. No new Substack essay since 11 Nov UTC; no new interview found. Added four calls from X posts of 13 Nov 2026 UTC: pl-148 (gold 'buckle up', unscorable), pl-149 (ICE money 'paid for past the next election', inferred 0.90, open to 7 Nov 2028, queued), pl-150 (AMOC shutdown and Younger Dryas-type reversion 'in our lifetimes', unscorable), pl-151 (decarbonisation 'will never work', unscorable). Nothing due. Appended only; first 151 lines still hash to prior_sha256. Proof over batches/ledger-2026-11-14.jsonl (= concat github-parts/ledger-01..36.jsonl).",
+  "ots_file": "batches/ledger-2026-11-14.jsonl.ots (text copy: .ots.b64)",
+  "bitcoin_attestation": "pending"
+}
