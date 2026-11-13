@@ -1,0 +1,22 @@
+{
+  "created_at": "2026-11-12T08:05:00+11:00",
+  "file": "ledger.jsonl",
+  "sha256": "f256c1f6cafdafd0f6288547bf9d943f9b73a02d47c33eb886dea4363f9ef729",
+  "entry_count": 3,
+  "total_lines": 150,
+  "active_entries": 146,
+  "prior_sha256": "f709038b7957b506e75514deb96eff38109c70cff12d6f3161b50d796d77586a",
+  "new_ids": [
+    "pl-144",
+    "pl-145",
+    "pl-146"
+  ],
+  "resolutions": [],
+  "still_unresolved_due": [
+    "pl-012",
+    "pl-058"
+  ],
+  "note": "12 Nov 2026 daily intake. No new Substack since 10 Nov. Added three unscorable calls from X replies of 10-11 Nov UTC: pl-144 (IPCC 2100 forecasts 'more likely 2040'), pl-145 (decarbonisation through renewables 'will make zero difference'), pl-146 ('The existing financial system is ending'). Nothing due. Appended only; first 147 lines still hash to prior_sha256. Proof over batches/ledger-2026-11-12.jsonl (= concat github-parts/ledger-01..34.jsonl).",
+  "ots_file": "batches/ledger-2026-11-12.jsonl.ots (text copy: .ots.b64)",
+  "bitcoin_attestation": "pending"
+}
